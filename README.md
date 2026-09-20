@@ -1,4 +1,4 @@
-# 🌹 Rose_cn — 英雄联盟国服适配
+# 🌹 Rose — 英雄联盟国服适配
 
 <div align="center">
   <img src="./assets/icon.png" alt="Rose 图标" width="128" height="128">
@@ -12,7 +12,7 @@
 
 Rose 是《英雄联盟》的开源本地皮肤显示工具，通过 Pengu Loader 插件读取选人界面的皮肤选择，由 Python 后端在游戏启动时加载对应资源。
 
-**Rose_cn 重点适配国服与 WeGame 的客户端行为。** 本分支解决“选择皮肤后进入游戏没有显示”以及“关闭独立 Pengu Loader 后，Rose 自带加载器无法接管”的问题。它基于上游 Rose 1.2.14 开发，保留原项目的皮肤、炫彩、自定义外观及客户端插件功能；不改变账号的皮肤所有权。
+**Rose 重点适配国服与 WeGame 的客户端行为。** 本分支解决“选择皮肤后进入游戏没有显示”以及“关闭独立 Pengu Loader 后，Rose 自带加载器无法接管”的问题。它基于上游 Rose 1.2.14 开发，保留原项目的皮肤、炫彩、自定义外观及客户端插件功能；不改变账号的皮肤所有权。
 
 ## 国服适配内容
 
@@ -59,8 +59,8 @@ Rose 是《英雄联盟》的开源本地皮肤显示工具，通过 Pengu Loade
 克隆本仓库并安装依赖：
 
 ```powershell
-git clone https://github.com/CoolPeach7/Rose_cn.git
-cd Rose_cn
+git clone https://github.com/CoolPeach7/Rose.git
+cd Rose
 python -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
 ```
